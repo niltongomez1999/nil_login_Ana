@@ -78,12 +78,12 @@
       let errorMsg = document.getElementById("errorMsg");
 
       // Fecha válida en formato YYYY-MM-DD
-      let fechaValida = "1999-04-11"; 
-      let passwordValida = "12345";
+      let fechaValida = "2025-06-22"; 
+      let passwordValida = "221124";
 
       if(fecha === fechaValida && password === passwordValida){
   localStorage.setItem("logueado", "true"); // guardamos estado
-  window.location.href = "index.html"; 
+  window.location.href = "detalle.html"; 
 } else {
   errorMsg.style.display = "block";
 }
